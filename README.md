@@ -1,6 +1,6 @@
 # Currency and Temperature Converter
 
-An easy-to-use desktop application built with Java for converting currencies and temperatures. It utilizes the HTTP request services from "https://www.exchangerate-api.com/".
+An easy to use desktop application built with Java to convert currencies and temperatures. For currency conversion it uses the HTTP request services of "https://www.exchangerate-api.com".
 
 ## Features
 
