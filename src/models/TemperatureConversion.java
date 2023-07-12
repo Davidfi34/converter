@@ -18,7 +18,6 @@ public class TemperatureConversion extends Conversion{
                 result = (amount * 9/5) + 32; // Conversión de Celsius a Fahrenheit
                 break;
             case "CK":
-                System.out.println("es CK");
                 result = amount + 273.15; // Conversión de Celsius a Kelvin
                 break;
             case "FC":

@@ -17,22 +17,23 @@ public class Main {
                 null, opciones, 0);
 
         if (selection == opciones[0]){
-            //coins page
-            SwingUtilities.invokeLater(() -> {
-                        CoinsPage coinsPage = new CoinsPage();
-                        coinsPage.setSize(550,450);
-                        coinsPage.setVisible(true);
-                        coinsPage.setLocationRelativeTo(null);
-                    }
-            );
+     
+    		try {
+				CoinsPage frame = new CoinsPage();
+				frame.setVisible(true);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+  
         }else {
-            //temperature page
-            SwingUtilities.invokeLater(() -> {
-                pageTemperature pTemp = new pageTemperature();
-                pTemp.setSize(550, 450);
-                pTemp.setVisible(true);
-                pTemp.setLocationRelativeTo(null);
-            });
+            //temperature pageTemperature
+    		try {
+				pageTemperature frame = new pageTemperature();
+				frame.setVisible(true);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
         }
 
     }
